@@ -9,7 +9,7 @@ We have 20 classes in total (3 covered).
 ```mermaid
 graph LR;
   A[CIF-Junior] --> B(Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github as well.);
-  A ---> C(Class 2:);
+  A --> C(Class 2:);
 ```
 
 
