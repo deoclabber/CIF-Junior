@@ -8,7 +8,8 @@ CIF is an open-source organization for students (grade 5 - grade 8) who are inte
 We have 20 classes in total (3 covered).
 ```mermaid
 graph LR;
-  A[CIF-Junior] --> B(Class 1: We updated our virtual store from beginner classes and learned how to download Python in Visual Studio Code. We created our repositories.);
+  A[CIF-Junior] --> B(Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github as well.);
+  A ---> C(Class 2:);
 ```
 
 
