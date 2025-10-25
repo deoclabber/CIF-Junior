@@ -2,7 +2,7 @@
 Public repository for CIF (Coding is Fun) junior students. 
 
 ## Introduction
-CIF is an open-source organization for students (grade 5 - grade 8) who are interested in Python. It provides knowledge for basic syntax, casting, input, loops, lists. If you are interested, please enroll your child by clicking this link [here](https://www.itisfun.org/). 
+CIF is an open-source organization for students (grade 5 - grade 8) who are interested in Python. It provides knowledge for basic syntax, casting, input, loops, lists, Turtle. If you are interested, please enroll your child by clicking this link [here](https://www.itisfun.org/). 
 
 ## Classes
 We have 20 classes in total (3 covered). *We learned about Medium during class 2 but it's supposed to be during class 1.
