@@ -1,0 +1,29 @@
+import turtle
+
+#Side length and side amount input
+side_amount = int(input("Please enter the number of sides for your polygon (3 or more): "))
+while side_amount < 3:
+    side_amount = int(input("Please try again (3 or more): "))
+
+side_length = int(input("Please enter the length of each side (50 or more): "))
+while side_length < 50:
+    side_length = int(input("Please try again (50 or more): "))
+
+#Polygon drawing
+turtle.speed(0)
+turtle.shape("turtle")
+turtle.shapesize(0.1)
+turtle.hideturtle()
+turtle.bgcolor("#FFFFFF")
+turtle.pencolor("#000000")
+turtle.color("#000000")
+
+for i in range(side_amount):
+    turtle.forward(side_length)
+    turtle.right(360 / side_amount)
+
+turtle.penup()
+turtle.goto(0, 0)
+turtle.pendown()
+
+turtle.done()

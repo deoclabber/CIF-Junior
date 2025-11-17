@@ -1,0 +1,122 @@
+import turtle
+from random import randint
+
+#Setting up turtle
+turtle.speed(0)
+turtle.shape("arrow")
+
+#Background
+turtle.bgcolor("#03010e")
+turtle.hideturtle()
+
+#Set position
+turtle.goto(100, -250)
+turtle.seth(0)
+
+#Firework box
+turtle.pendown()
+
+turtle.fillcolor("red")
+turtle.pencolor("red")
+
+turtle.begin_fill()
+
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+
+turtle.end_fill()
+
+#Stars
+turtle.penup()
+
+for i in range(randint(50, 70)):
+    
+    #Random x and y coordinates
+    turtle.goto(randint(-1000, 1000), randint(50, 500))
+
+    turtle.pendown()
+    
+    turtle.speed(0)
+    turtle.color("white")
+    turtle.pencolor("white")
+    turtle.fillcolor("white")
+    turtle.shapesize(0.1)
+    turtle.shape("arrow")
+
+    turtle.begin_fill()
+
+    turtle.right(145)
+    turtle.forward(25)
+    turtle.right(145)
+    turtle.forward(25)
+    turtle.right(145)
+    turtle.forward(25)
+    turtle.right(145)
+    turtle.forward(25)
+
+    turtle.end_fill()
+
+    turtle.penup()
+
+#Set position
+turtle.seth(0)
+turtle.goto(100, -250)
+turtle.forward(50)
+turtle.left(90)
+
+turtle.pendown()
+
+#Firework
+turtle.showturtle()
+turtle.speed(0)
+turtle.color("#FD4800")
+turtle.pencolor("#FD4800")
+turtle.pensize(3)
+turtle.shapesize(1.5)
+turtle.shape("circle")
+
+for i in range(30):
+    turtle.forward(18)
+    turtle.left(1)
+
+turtle.goto(15, 270)
+turtle.seth(0)
+turtle.pensize(4)
+
+for i in range(18):
+    turtle.forward(200)
+    turtle.backward(200)
+    turtle.right(10)
+    turtle.color("#FF0000")
+    turtle.pencolor("#FF0000")
+    
+    turtle.forward(200)
+    turtle.backward(200)
+    turtle.right(10)
+    turtle.color("#FD4800")
+    turtle.pencolor("#FD4800")
+
+turtle.pensize(3)
+
+for i in range(10):
+    turtle.forward(175)
+    turtle.backward(175)
+    turtle.right(25)
+    turtle.color("#FF9100")
+    turtle.pencolor("#FF9100")
+    
+    turtle.forward(175)
+    turtle.backward(175)
+    turtle.right(25)
+    turtle.color("#FFF200")
+    turtle.pencolor("#FFF200")
+    
+turtle.done()
+
+
