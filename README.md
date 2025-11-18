@@ -1,5 +1,5 @@
 # CIF-Junior
-Public repository for CIF (Coding is Fun) junior students. 
+Public repository for CIF (Coding is Fun) junior students. My Medium stuff is [here](https://medium.com/@danbaoqin).
 
 ## Introduction
 CIF is an open-source organization for students (grade 5 - grade 8) who are interested in Python. It provides knowledge for basic syntax, casting, input, loops, lists, Turtle. If you are interested, please enroll your child by clicking this link [here](https://www.itisfun.org/). 
@@ -13,7 +13,31 @@ graph LR;
   A --> C(Class 2: Learned how to make flowchart on diagrams.net and understand how to create a simple number guessing game.);
   A --> D(Class 3: Enhanced simple number guessing game and flowchart by making improvements like hints, user-inputted boundaries, and retrys.);
   A --> E(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
-
+  A --> F(Class 5: Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.);
+  A --> G(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
 ```
 
+## Knowledge
+We learned:
+in python:
+- print
+- input
+- casting
+- variables
+- list (1D and 2D)
+- Turtle (pen, color, size, speed)
+in Github:
+- how to create account, repository, files, and folders
+- how to upload files and folders
+- Mermaid
+in Medium:
+- how to create articles
+other:
+- how VS Code works
+skills:
+- problem-solving
+- debugging
+- critical thinking
+- math
 
+Thank you for visiting this repository!
