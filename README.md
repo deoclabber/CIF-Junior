@@ -26,14 +26,18 @@ in python:
 - variables
 - list (1D and 2D)
 - Turtle (pen, color, size, speed)
+  
 in Github:
 - how to create account, repository, files, and folders
 - how to upload files and folders
 - Mermaid
+  
 in Medium:
 - how to create articles
+  
 other:
 - how VS Code works
+  
 skills:
 - problem-solving
 - debugging
