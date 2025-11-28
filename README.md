@@ -15,6 +15,7 @@ graph LR;
   A --> E(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
   A --> F(Class 5: Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.);
   A --> G(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
+  B--> H(Class 7: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
 ```
 
 ## Knowledge
@@ -25,7 +26,7 @@ in python:
 - casting
 - variables
 - list (1D and 2D)
-- Turtle (pen, color, size, speed)
+- Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle)
   
 in Github:
 - how to create account, repository, files, and folders
