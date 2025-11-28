@@ -15,26 +15,28 @@ graph LR;
   A --> E(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
   A --> F(Class 5: Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.);
   A --> G(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
-  B--> H(Class 7: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
+  A --> H(Class 7: Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.);
 ```
 
 ## Knowledge
 We learned:
-in python:
+in Python:
+- basic syntax ("print('')" is correct; "Print ('')" is wrong)
 - print
 - input
 - casting
 - variables
 - list (1D and 2D)
-- Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle)
+- Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
   
 in Github:
 - how to create account, repository, files, and folders
 - how to upload files and folders
-- Mermaid
+- Mermaid diagrams (like this one)
   
 in Medium:
-- how to create articles
+- how to write articles
+- how to create an account
   
 other:
 - how VS Code works
@@ -43,6 +45,7 @@ skills:
 - problem-solving
 - debugging
 - critical thinking
+- simple digital art
 - math
 
 Thank you for visiting this repository!
