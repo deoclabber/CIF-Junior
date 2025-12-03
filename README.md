@@ -19,7 +19,7 @@ graph LR;
   B --> K(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
   B --> L(Class 7: Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.);
 
-  C --> A(Test);
+  C --> 1(Test);
 ```
 
 ## Knowledge
