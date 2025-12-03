@@ -9,13 +9,17 @@ We have 20 classes in total (4 covered). *We learned about Medium during class 2
 
 ```mermaid
 graph LR;
-  A[CIF-Junior] --> B(Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github and Medium* as well.);
-  A --> C(Class 2: Learned how to make flowchart on diagrams.net and understand how to create a simple number guessing game.);
-  A --> D(Class 3: Enhanced simple number guessing game and flowchart by making improvements like hints, user-inputted boundaries, and retrys.);
-  A --> E(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
-  A --> F(Class 5: Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.);
-  A --> G(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
-  A --> H(Class 7: Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.);
+  A[CIF-Junior] --> B[Week 1 (7 classes)];
+  A --> C[Week 2 (7 classes)]
+  B --> C(Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github and Medium* as well.);
+  B --> DC(Class 2: Learned how to make flowchart on diagrams.net and understand how to create a simple number guessing game.);
+  B --> E(Class 3: Enhanced simple number guessing game and flowchart by making improvements like hints, user-inputted boundaries, and retrys.);
+  B --> F(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
+  B --> G(Class 5: Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.);
+  B --> H(Class 6: Created two Turtle projects: a polygon generater with user-inputted side lengths and amount of sides and a nice firework show.);
+  B --> I(Class 7: Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.);
+
+  C --> A(Test)
 ```
 
 ## Knowledge
@@ -28,6 +32,7 @@ in Python:
 - variables
 - list (1D and 2D)
 - Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
+- Pygame (framerate, coordinates)
   
 in Github:
 - how to create account, repository, files, and folders
