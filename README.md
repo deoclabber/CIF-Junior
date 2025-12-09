@@ -20,6 +20,7 @@ graph LR;
   B --> L(Class 7: Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.);
 
   C --> M(Class 8: Learned about Pygame and how to install the library. Created a simple brainstorm on how to make a box move tot the right with the concepts of framerate and coordinates.);
+  C -> N(Class 9: Created the first Pygame animation: Two squares (green and pink) with RGB color model that move right and left respectly while not going out of bounds.);
 ```
 
 ## Knowledge
@@ -32,7 +33,7 @@ in Python:
 - variables
 - list (1D and 2D)
 - Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
-- Pygame (framerate, coordinates, how to install the library)
+- Pygame (RGB color model, rectangles, framerate, coordinates, how to install the library)
   
 in Github:
 - how to create account, repository, files, and folders
