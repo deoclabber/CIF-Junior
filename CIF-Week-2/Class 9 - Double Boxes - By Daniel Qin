@@ -12,8 +12,6 @@ box1_y = 50
 box2_x = 800
 box2_y = 500
 
-rect1 = pygame.Rect(box1_x, box1_y, 50, 50)
-rect2 = pygame.Rect(box2_x, box2_y, 50, 50)
 screen = pygame.display.set_mode((width, height))
 
 clock = pygame.time.Clock()
@@ -40,8 +38,6 @@ while True:
         box2_y = 0 
     if box2_y > height - 50:
         box2_y = height - 50
-        
-    rect1 = pygame.Rect(box1_x, box1_y, 50, 50)
 
     box1_x += 5
     box2_x -= 5
