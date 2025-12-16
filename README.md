@@ -35,7 +35,7 @@ in Python:
 - booleans
 - list (1D and 2D)
 - Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
-- Pygame (RGB color model, rectangles, framerate, coordinates, how to install the library)
+- Pygame (if key is pressed, RGB color model, rectangles, framerate, coordinates, how to install the library)
   
 in Github:
 - how to create account, repository, files, and folders
@@ -48,6 +48,7 @@ in Medium:
   
 other:
 - how VS Code works
+- how Slack works
   
 skills:
 - problem-solving
