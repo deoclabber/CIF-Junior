@@ -11,7 +11,7 @@ We have 20 classes in total (4 covered). *We learned about Medium during class 2
 graph LR;
   A[CIF-Junior] --> B[Week 1];
   A --> C[Week 2];
-  B --> F[Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github and Medium* as well.];
+  B --> F(Class 1: Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github and Medium* as well.);
   B --> G(Class 2: Learned how to make flowchart on diagrams.net and understand how to create a simple number guessing game.);
   B --> H(Class 3: Enhanced simple number guessing game and flowchart by making improvements like hints, user-inputted boundaries, and retrys.);
   B --> I(Class 4: Created two projects: the instructions and flowchart for the text-based adventure game, TBAG and a 2D list of the weather of the next 7 days.);
@@ -21,16 +21,18 @@ graph LR;
 
   C --> M(Class 8: Learned about Pygame and how to install the library. Created a simple brainstorm on how to make a box move tot the right with the concepts of framerate and coordinates.);
   C --> N(Class 9: Created the first Pygame animation: Two squares with RGB color model that move right and left respectly while not going out of bounds.);
+  C --> O(Class 10: Completed my first controllable game with arrow keys. Created a color-changing box with counters based on framrate.);
 ```
 
 ## Knowledge
 We learned:
 in Python:
-- basic syntax ("print('')" is correct; "Print ('')" is wrong)
+- basic syntax ("print('hello')" is correct; "Print ('hello')" is wrong)
 - print
 - input
 - casting
 - variables
+- booleans
 - list (1D and 2D)
 - Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
 - Pygame (RGB color model, rectangles, framerate, coordinates, how to install the library)
