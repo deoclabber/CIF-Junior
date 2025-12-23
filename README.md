@@ -22,6 +22,7 @@ graph LR;
   C --> M(Class 8: Learned about Pygame and how to install the library. Created a simple brainstorm on how to make a box move tot the right with the concepts of framerate and coordinates.);
   C --> N(Class 9: Created the first Pygame animation: Two squares with RGB color model that move right and left respectly while not going out of bounds.);
   C --> O(Class 10: Completed my first controllable game with arrow keys. Created a color-changing box with counters based on framrate.);
+  C --> Q(Class 11: Improved the controllable game with an interactive box in the middle. Added text whenever the middle box is detecting collision.)
 ```
 
 ## Knowledge
