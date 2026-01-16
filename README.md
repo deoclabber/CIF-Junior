@@ -23,7 +23,7 @@ graph LR;
   C --> N(Class 9: Created the first Pygame animation: Two squares with RGB color model that move right and left respectly while not going out of bounds.);
   C --> O(Class 10: Completed my first controllable game with arrow keys. Created a color-changing box with counters based on framrate.);
   C --> Q(Class 11: Improved the controllable game with an interactive box in the middle. Added text whenever the middle box is detecting collision.);
-  C ----->R(Class 12: Created a simple maze obstacle course with walls, goal, enemies, player, and respawn mechanics. Added text when the player dies or wins.);
+  C -->R(Class 12: Created a simple maze obstacle course with walls, goal, enemies, player, and respawn mechanics. Added text when the player dies or wins.);
 ```
 
 ## Knowledge
