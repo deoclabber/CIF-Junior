@@ -25,13 +25,6 @@ player_x = 15
 player_y = 100
 player_x_change = 0
 player_y_change = 0
-player_speed = 9
-enemy_y = 60
-enemy_y_change = 7
-enemy_y2 = 600
-enemy_y2_change = 10
-enemy_y3 = 0
-enemy_y3_change = 7
 
 #Set player and enemy speeds
 player_speed = float(input("Enter the speed of the player. (8-15) (10 recommended)"))
@@ -240,4 +233,5 @@ while runtime:
                 player_y = wall.bottom
                 
     pygame.display.update()
+
 
