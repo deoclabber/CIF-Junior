@@ -1,0 +1,91 @@
+import pygame
+from random import randint
+pygame.init()
+
+color = (randint(0, 255), randint(0, 255), randint(0, 255))
+red = (255, 0, 0)
+space = (0, 0, 20)
+
+width = 1000
+height = 800
+my_font = pygame.font.SysFont("Lexend", 50)
+text_surface = my_font.render("Dodge the red square...", False, (255, 255, 255))
+box1_x = 0
+box1_y = 100
+box2_x = 500
+box2_y = 400
+box1_x_change = 0
+box1_y_change = 0
+box1_speed = 9
+move_up = False
+move_left = False
+move_down = False
+move_right = False
+counter = 0
+
+screen = pygame.display.set_mode((width, height))
+clock = pygame.time.Clock()
+
+while True:
+    clock.tick(30)
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            exit()
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_UP:
+                box1_y_change = -box1_speed
+                move_up = True
+            if event.key == pygame.K_LEFT:
+                box1_x_change = -box1_speed
+                move_left = True
+            if event.key == pygame.K_DOWN:
+                box1_y_change = box1_speed
+                move_down = True 
+            if event.key == pygame.K_RIGHT:
+                move_right = True                 
+                box1_x_change = box1_speed
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_UP:
+                move_up = False
+                box1_y_change = 0
+            if event.key == pygame.K_LEFT:
+                move_left = False
+                box1_x_change = 0
+            if event.key == pygame.K_DOWN:
+                move_down = False
+                box1_y_change = 0
+            if event.key == pygame.K_RIGHT:
+                move_right = False
+                box1_x_change = 0
+
+    box1_x += box1_x_change
+    box1_y += box1_y_change
+
+    if box1_x < 0:
+        box1_x = 0 
+    if box1_x > width - 50:
+        box1_x = width - 50
+    if box1_y < 0:
+        box1_y = 0 
+    if box1_y > height - 50:
+        box1_y = height - 50
+
+    rect1 = pygame.Rect(box1_x, box1_y, 30, 30)
+    rect2 = pygame.Rect(box2_x, box2_y, 50, 50)
+
+    counter += 1 
+    if counter >= 60:
+        color = (randint(0, 255), randint(0, 255), randint(0, 255))
+        counter = 0
+
+    pygame.draw.rect(screen, color, rect1)
+    pygame.draw.rect(screen, red, rect2)
+
+    if rect1.colliderect(rect2):
+        print("You failed!")
+        box1_x = box1_x - box1_x_change
+        box1_y = box1_y - box1_y_change
+
+    pygame.display.update()
+    screen.fill(space)
+    screen.blit(text_surface, (20, 20))
