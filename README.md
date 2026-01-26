@@ -24,8 +24,8 @@ graph LR;
   C --> O(Class 10: Completed my first controllable game with arrow keys. Created a color-changing box with counters based on framrate.);
   C --> Q(Class 11: Improved the controllable game with an interactive box in the middle. Added text whenever the middle box is detecting collision.);
   C --> R(Class 12: Created a simple maze obstacle course with walls, goal, enemies, player, and respawn mechanics. Added text when the player dies or wins.);
-C --> S(Class 13: A continuation of class 12.);
-  C-->     T(Class 14: Improved the maze obstacle course with a main menu and a tutorial. Added custom speeds for enemies and player.);
+  C --> S(Class 13: A continuation of class 12.);
+  C--> T(Class 14: Improved the maze obstacle course with a main menu and a tutorial. Added custom speeds for enemies and player.);
 ```
 
 ## Knowledge
