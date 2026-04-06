@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>placeholder</title>
+
+        <link rel="stylesheet" type="text/css" href="Website.css">
+    </head>
+    <body>
+        <h1>CIF - Junior</h1>
+        <br>
+        <h2>CIF - Week 1</h2>
+
+        <h3>Project 1 - Virtual Ice Cream Shop</h3>
+        <p>Updated virtual store from beginner classes and learned how to download Python in VSC. Learned about Github and Medium as well.</p>
+        <h3>Project 2 - Simple Num Guessing Game</h3>
+        <p>Learned how to make flowchart on diagrams.net and understand how to create a simple number guessing game.</p>
+        <h3>Project 3 - Enhanced Number Guessing Game</h3>
+        <p>Enhanced simple number guessing game and flowchart by making improvements like hints, user-inputted boundaries, and retrys.</p>
+        <h3>Project 4 - Simple TBAG Instruction-Only</h3>
+        <p>Created the instructions and flowchart for the text-based adventure game, TBAG.</p>
+        <h3>Project 5 - Weather</h3>
+        <p>Created a 2D list of the weather of the next 7 days.</p>
+        <h3>Project 6 - TBAG</h3>
+        <p> Completed the whole TBAG with multiple endings and a 2D list for questions and banned usernames. Created a flowchart to go with it.</p>
+        <h3>Project 7 - Fireworks</h3>
+        <p>Created a basic fireworks show with a single firework.</p>
+        <h3>Project 8 - Polygon</h3>
+        <p>Created a polygon generator with user-inputted side lengths and amount of sides </p>
+        <h3>Project 9 - Art</h3>
+        <p>Created the first Pygame animation: Two squares with RGB color model that move right and left respectly while not going out of bounds.</p>
+        <h3>Project 10 - Improved Fireworks</h3>
+        <p>Improved fireworks show with another firework using clones. Added a green background for grass and less delay for improvements.</p>
+        <br>
+        <h2>CIF - Week 2</h2>
+
+        <h3>Project 11 - Pygame Brainstorming</h3>
+        <p>Learned about Pygame and how to install the library. Created a simple brainstorm on how to make a box move tot the right with the concepts of framerate and coordinates.</p>
+        <h3>Project 12 - Double Boxes</h3>
+        <p>Created the first Pygame animation: Two squares with RGB color model that move right and left respectly while not going out of bounds.</p>
+        <h3>Project 13 - Controllable Box</h3>
+        <p>Completed my first controllable project with arrow keys. Created a color-changing box with counters based on framerate.</p>
+        <h3>Project 14 - Interactive Boxes</h3>
+        <p>Improved the controllable game with an interactive box in the middle. Added text whenever the middle box is detecting collision.</p>
+        <h3>Project 15 - Maze</h3>
+        <p>Created a simple maze obstacle course with walls, goal, enemies, player, and respawn mechanics. Added text when the player dies or wins.</p>
+        <h3>Project 16 - Obstacle Course</h3>
+        <p>Improved the maze obstacle course with a main menu and a tutorial. Added custom speeds for enemies and player.</p>
+        <br>
+        <h2>CIF - Week 3</h2>
+
+        <h3>Project 17 - Distance Sensor</h3>
+        <p>Learned about the basics of Arduino and created a ultrasonic distance sensor in Arduino.</p>
+        <h3>Project 18 - Motion Sensor</h3>
+        <p>Created a simple infrared motion sensor in Arduino.</p>
+        <h3>Project 29 - Combination</h3>
+        <p>Combined the distance and motion sensors.</p>
+        <br>
+        <h2>CIF - Week 4</h2>
+
+        <h3>Project 20 - HTML Basics</h3>
+        <p>Learned the basics of HTML and created a simple webpage.</p>
+    </body>
+</html>
