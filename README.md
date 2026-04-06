@@ -40,12 +40,22 @@ in Python:
 - list (1D and 2D)
 - Turtle (pen, color, size, speed, delay, how to create fireworks in Turtle, how to create shapes in Turtle, how to create clones)
 - Pygame (keybinds, RGB color model, rectangles, framerate, coordinates, how to install the library, collision, text, interactions)
+
+in Arduino:
+- basic syntax
+- functions
+- sensors and hardware (NodeMCU Esp8266 microcontroller)
+- how to link hardware with software
+
+in HTML:
+- basic syntax
+- using CSS to style
   
 in Github:
 - how to create account, repository, files, and folders
 - how to upload files and folders
 - Mermaid diagrams (like this one)
-  
+
 in Medium:
 - how to write articles
 - how to create an account
@@ -53,6 +63,7 @@ in Medium:
 other:
 - how VS Code works
 - how Slack works
+- IoT (Internet of Things)
   
 skills:
 - problem-solving
