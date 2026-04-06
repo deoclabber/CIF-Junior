@@ -1,0 +1,18 @@
+/*Website.css*/
+body {
+    background-color: rgb(255, 253, 225);
+}
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 7, 35);
+}
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 16, 80);
+}
+h3 {
+    color: rgb(0, 25, 125);
+}
+p {
+    color: rgb(0, 42, 168)
+}
